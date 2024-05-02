@@ -1,5 +1,5 @@
-import { ourTeamItems } from "./helpers";
 import { Button } from "./ui/button";
+import { ourTeamItems } from "./helpers";
 
 export default function OurTeam() {
   return (
@@ -23,11 +23,14 @@ export default function OurTeam() {
         {/* Cards------------------------------------------------------------starts here */}
         <div className="flex flex-col gap-5">
           {ourTeamItems.map((item) => (
-            <div key={item.id} className="bg-card p-5 relative ml-7">
+            <div
+              key={item.id}
+              className="bg-card text-card-foreground p-5 relative ml-7"
+            >
               <div className="w-14 h-14 bg-primary absolute top-1/2 -translate-y-1/2 -left-7"></div>
               <div className="ml-7">
                 <h6 className="text-primary text-md font-bold">{item.title}</h6>
-                <p className="text-white">{item.description}</p>
+                <p>{item.description}</p>
               </div>
             </div>
           ))}

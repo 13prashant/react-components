@@ -29,13 +29,13 @@ export default function OurValue() {
       {/* Title------------------------------------------------------------ends here */}
 
       <div className="rc-container !py-0 -mt-20">
-        <div className="bg-card text-white/90 flex flex-col md:flex-row items-center duration-300">
+        <div className="bg-card text-card-foreground flex flex-col md:flex-row items-center duration-300">
           {/* Accordion------------------------------------------------------------starts here */}
           <div className="flex flex-col gap-4 p-10">
             <h4 className="text-3xl">
               We talk a lot about hope helping and teamwork.
             </h4>
-            <p className="text-white/70">
+            <p className="text-card-foreground">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Distinctio, aliquam!
             </p>

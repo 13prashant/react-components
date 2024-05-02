@@ -26,13 +26,13 @@ export default function WhyChooseUs() {
             {detailedCards.map((card) => (
               <div
                 key={card.id}
-                className="bg-card py-10 px-4 flex flex-col items-center gap-2 w-full xl:max-w-xs group hover:bg-primary duration-300"
+                className="bg-card text-card-foreground py-10 px-4 flex flex-col items-center gap-2 w-full xl:max-w-xs group hover:bg-primary duration-300"
               >
-                <div className="w-14 h-14 bg-primary group-hover:bg-white duration-300"></div>
-                <h4 className="text-primary group-hover:text-white duration-300">
+                <div className="w-14 h-14 bg-primary group-hover:bg-background duration-300"></div>
+                <h4 className="text-primary font-semibold group-hover:text-card-foreground duration-300">
                   {card.title}
                 </h4>
-                <p className="text-white text-center">{card.description}</p>
+                <p className="text-center">{card.description}</p>
               </div>
             ))}
           </div>

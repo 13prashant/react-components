@@ -29,7 +29,7 @@ export default function WhoWeAre() {
           <div className="flex gap-3 items-center">
             <span className="bg-primary h-14 w-14"></span>
             <div>
-              <p className="font-semibold text-black/50">
+              <p className="font-semibold text-muted-foreground">
                 24/7 Emergency Towing
               </p>
               <h3 className="text-blue-700 text-2xl">{CONTACT_NUMBER}</h3>
@@ -40,10 +40,10 @@ export default function WhoWeAre() {
 
         {/* Image------------------------------------------------------------starts here */}
         <div className="w-full md:w-1/2 duration-300 relative mt-4 ml-4">
-          <div className="bg-white p-1 absolute -top-5 -left-5">
-            <div className="bg-card w-fit p-5 text-center">
+          <div className="bg-background p-1 absolute -top-5 -left-5">
+            <div className="bg-card text-card-foreground w-fit p-5 text-center">
               <h2 className="text-3xl text-primary font-bold">25 +</h2>
-              <p className="text-white">YEARS OF EXPERIENCE</p>
+              <p>YEARS OF EXPERIENCE</p>
             </div>
           </div>
           <img
