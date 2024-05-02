@@ -39,7 +39,7 @@ export default function WhoWeAre() {
         {/* CTA------------------------------------------------------------ends here */}
 
         {/* Image------------------------------------------------------------starts here */}
-        <div className="w-full md:w-1/2 duration-300 relative">
+        <div className="w-full md:w-1/2 duration-300 relative mt-4 ml-4">
           <div className="bg-white p-1 absolute -top-5 -left-5">
             <div className="bg-card w-fit p-5 text-center">
               <h2 className="text-3xl text-primary font-bold">25 +</h2>
@@ -47,7 +47,7 @@ export default function WhoWeAre() {
             </div>
           </div>
           <img
-            className="h-full w-full"
+            className="h-full w-full object-cover bg-center"
             src="https://kit.creativemox.com/stockytow/wp-content/uploads/sites/6/2023/10/towing-truck-driver-staying-next-to-his-vehicle-e1697119891389.jpg"
             alt="A man repairing car"
           />
