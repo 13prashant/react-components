@@ -73,3 +73,14 @@ export const ourTeamItems = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, nam?",
   },
 ];
+
+export const whoWeAreItems = [
+  "Magna si ornare lacinia",
+  "Magna si ornare lacinia",
+  "Magna si ornare lacinia",
+  "Magna si ornare lacinia",
+  "Magna si ornare lacinia",
+  "Magna si ornare lacinia",
+  "Rutrum metus blandit pellentesque",
+  "Rutrum metus blandit pellentesque",
+];
