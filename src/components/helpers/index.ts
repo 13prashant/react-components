@@ -49,3 +49,27 @@ export const ourValueItems = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, nam?",
   },
 ];
+
+export const ourTeamItems = [
+  {
+    id: 0,
+    icon: "",
+    title: "Prestigous & Professional",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, nam?",
+  },
+  {
+    id: 1,
+    icon: "",
+    title: "15+ Years Experience",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, nam?",
+  },
+  {
+    id: 2,
+    icon: "",
+    title: "Support & Knowledge",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, nam?",
+  },
+];
